@@ -1,0 +1,1 @@
+weather_token = "ваш weather_token"
