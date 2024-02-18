@@ -137,4 +137,4 @@ async def discon(ctx):
     await player.disconnect()        
 
 #Необходимо для постоянной работы бота
-bot.run('MTIwNTU0MzczMjI0MjQxOTc2Mg.Gr9J9A.KcDjLsDA1Qnf61-tLyNNu9pAhh5RMUj9HiDxng')
+bot.run('Ваш токен')
