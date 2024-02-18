@@ -646,6 +646,6 @@ async def on_command_error(ctx, error):
         await ctx.send(error)    
 
 #Необходимо для постоянной работы бота
-bot.run('MTE0NjQ2MjE3Mzc3NDc1Nzg5OQ.GIiMhJ.xoCljVABV9V1C5grQIcGaHuB9nDIjAI39oyEJQ')
+bot.run('Ваш токен')
 
 
