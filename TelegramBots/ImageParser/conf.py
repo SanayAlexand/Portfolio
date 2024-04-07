@@ -1,0 +1,1 @@
+TNOKEN = "Telegram токен" 
