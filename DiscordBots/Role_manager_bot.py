@@ -63,7 +63,7 @@ async def startrole(ctx, role: disnake.Role):
 @bot.event
 async def on_member_join(member):
    role_id = bot.role_id_to_assign                #Получаем id роли из комнды startrole
-   if role_id:                                    #Если role_id != None то их полученого листо выбираем нужный id и назначаем роль новому участнику
+   if role_id:                                    #Если role_id != None то иp полученого скписка выбираем нужный id и назначаем роль новому участнику
       add_role = member.guild.get_role(role_id)
       if add_role:
          await member.add_roles(add_role)
